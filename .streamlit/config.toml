@@ -1,0 +1,12 @@
+# Charts are rendered by matplotlib against a fixed light surface (#fcfcfb),
+# so pin the app theme to light to keep figures and page consistent.
+[theme]
+base = "light"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f3ef"
+textColor = "#0b0b0b"
+primaryColor = "#2a78d6"
+font = "sans serif"
+
+[server]
+headless = true
